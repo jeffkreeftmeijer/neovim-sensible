@@ -10,3 +10,6 @@ set colorcolumn=80
 
 " Use , as the leader key
 let mapleader=","
+
+" Use ,, to switch between buffers
+nnoremap <leader><leader> :b#<CR>
