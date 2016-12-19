@@ -6,6 +6,7 @@ Think of neovim-sensible.vim as one step above [sensible.vim](https://github.com
 
 ```
 $ git log --format="- %s" | grep [Use,Set]
+- Use , as the leader key
 - Set a color column on the 80-character mark
 - Use the system clipboard
 - Use "hybrid" (both absolute and relative) line numbers
