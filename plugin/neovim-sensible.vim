@@ -13,3 +13,7 @@ let mapleader=","
 
 " Use ,, to switch between buffers
 nnoremap <leader><leader> :b#<CR>
+
+" Press <tab>, get two spaces
+set expandtab
+set shiftwidth=2
