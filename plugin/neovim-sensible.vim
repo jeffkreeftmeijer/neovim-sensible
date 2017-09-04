@@ -17,3 +17,6 @@ nnoremap <leader><leader> :b#<CR>
 " Press <tab>, get two spaces
 set expandtab
 set shiftwidth=2
+
+" Show `▸▸` for tabs: 	, `·` for tailing whitespace: 
+set list listchars=tab:▸▸,trail:·
