@@ -5,7 +5,9 @@ Think of neovim-sensible.vim as one step above [sensible.vim](https://github.com
 ## Features
 
 ```
-$ git log --format="- %s" | grep [Use,Set]
+$ git log --format="- %s" | grep 'Set\|Use\|Press'
+- Set list (tabs: `▸▸`, tailing whitespace: `·`)
+- Press <tab>, get two spaces
 - Use ,, to switch between buffers
 - Use , as the leader key
 - Set a color column on the 80-character mark
