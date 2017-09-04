@@ -1,6 +1,5 @@
 " Use "hybrid" (both absolute and relative) line numbers
-set number
-set relativenumber
+set number relativenumber
 
 " Use the system clipboard
 set clipboard=unnamed
@@ -15,8 +14,7 @@ let mapleader=","
 nnoremap <leader><leader> :b#<CR>
 
 " Press <tab>, get two spaces
-set expandtab
-set shiftwidth=2
+set expandtab shiftwidth=2
 
 " Show `▸▸` for tabs: 	, `·` for tailing whitespace: 
 set list listchars=tab:▸▸,trail:·
