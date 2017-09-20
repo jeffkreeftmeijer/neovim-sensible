@@ -18,3 +18,6 @@ set expandtab shiftwidth=2
 
 " Show `▸▸` for tabs: 	, `·` for tailing whitespace: 
 set list listchars=tab:▸▸,trail:·
+
+" Enable mouse mode
+set mouse=a

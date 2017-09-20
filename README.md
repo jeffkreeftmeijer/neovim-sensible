@@ -5,7 +5,8 @@ Think of neovim-sensible.vim as one step above [sensible.vim](https://github.com
 ## Features
 
 ```
-$ git log --format="- %s" | grep 'Set\|Use\|Press'
+$ git log --format="- %s" | grep 'Set\|Use\|Press\|Enable'
+- Enable mouse mode
 - Set list (tabs: `▸▸`, tailing whitespace: `·`)
 - Press <tab>, get two spaces
 - Use ,, to switch between buffers
