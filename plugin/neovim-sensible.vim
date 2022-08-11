@@ -2,7 +2,7 @@
 set number relativenumber
 
 " Use the system clipboard
-set clipboard=unnamed
+set clipboard^=unnamed,unnamedplus
 
 " Use a color column on the 80-character mark
 set colorcolumn=80
